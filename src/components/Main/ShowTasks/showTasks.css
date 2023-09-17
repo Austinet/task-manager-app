@@ -1,0 +1,133 @@
+main {
+  padding: 0 0.5rem;
+}
+
+.table-container {
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  max-width: 1400px;
+  margin: 2rem auto;
+  padding: 1rem;
+  min-height: 68.5vh;
+}
+
+.line-through { 
+  text-decoration: line-through;
+}
+
+.table-container .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.table-container input[type="search"]{
+  width: 300px;
+  height: 50px;
+  padding: 0.9rem 1rem;
+  border-radius: 5px;
+  border: 1px solid var(--black);
+  font-size: 1rem;
+}
+
+.table-container table {
+  width: 100%;
+  border-spacing: 0;  
+}
+
+th {
+  font-size: 1.18rem;
+  font-weight: 500;
+  color: var(--white);
+  padding: 1rem 0 1rem 1rem;
+  text-align: left;
+}
+
+td {
+  padding: 1rem 0 1rem 1rem;
+  font-size: 1.1rem;
+}
+
+th:last-child, td:last-child td {
+  padding-right: 0.8rem;
+}
+
+thead tr {
+  background-color: var(--mild-blue);
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--grey-blue);
+}
+
+.no-task {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 1.3rem;
+  background-color: var(--grey-blue);
+}
+
+.table-container button {
+  padding: 0.4rem 0.7rem;
+  border-radius: 5px;
+  background: var(--blue);
+  border: none;
+  color: var(--white);
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+  outline: none;
+}
+
+.table-container .header button{
+  width: 170px; 
+  padding: 0.9rem 1rem;
+}
+
+.table-container button:hover {
+  background-color: var(--greyish-blue);
+  color: var(--white);
+}
+
+/* Responsiveness */
+@media(max-width: 900px) {
+  html {
+      font-size: 15px;
+  }
+
+  .table-container {
+    padding: 1rem 0.5rem;
+  }
+
+  .table-container-wrapper {
+      padding: 0 0.5rem;
+      overflow-x: scroll;
+  }
+
+  .table-container .header button{
+    width: 130px; 
+    padding: 0.8rem 0.7rem;
+  }
+
+  table {
+      min-width: 755px;
+  } 
+
+  th {
+      font-size: 1.1rem;
+  }
+}
+
+@media(max-width: 500px) {
+  html {
+    font-size: 14px;
+  }
+
+  .table-container .header {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}

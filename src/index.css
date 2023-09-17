@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root  {
+  --blue: #114c7d;
+  --greyish-blue: #335ba6c7;
+  --grey-blue: #1f67ec33;
+  --mild-blue: rgb(0, 122, 192);
+  --white: #fff;
+  --red: #f00;
+  --dark: #1F1F1F;
+  --black: #000;
+  --shadow: rgba(0, 0, 0, 0.5);
+  --green: rgb(43, 172, 43);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

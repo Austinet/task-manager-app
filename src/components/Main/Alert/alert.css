@@ -1,0 +1,56 @@
+.alert-modal-overlay {
+    width: 99%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.alert-modal {
+    width: 270px;
+    height: 150px;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--shadow);
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+}
+
+.alert-modal .message {
+    text-align: center;
+}
+
+.alert-modal .message p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.message img {
+    width: 35px;
+    height: 35px;
+}
+
+.alert-modal .line {
+    margin-top: 0.8rem;
+    width: 220px;
+    overflow-x: hidden;
+}
+
+.alert-modal .line p {
+    height: 13px;
+    background-color: var(--green);
+    border-radius: 5px;
+    animation: slideOut 3s ease-in-out;
+} 
+
+@keyframes slideOut {
+    from {
+        margin-right: 0;
+    } 
+
+    to {
+        margin-right: 220px;
+    }
+}
+
+ 

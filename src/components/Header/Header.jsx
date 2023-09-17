@@ -1,5 +1,4 @@
 import profile from "../../assets/profile.jpg";
-import '../../assets/all.min.css'
 import './header.css'
 
 const Header = () => {

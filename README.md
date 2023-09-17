@@ -1,4 +1,4 @@
-# KodeCamp - Task Management App
+# KodeCamp - Task Manager App
 
 ## Table of contents
 
@@ -39,8 +39,8 @@ Create a task management app with the following features
 - ![Small Screen](/screenshots/small-screen.PNG)
 
 ### Links
-- [Solution URL](https://github.com/Austinet/task-management-app.git)
-- [Live site URL](https://austinet.github.io/task-management-app/)
+- [Solution URL](https://github.com/Austinet/task-manager-app.git)
+- [Live site URL](https://austinet.github.io/task-manager-app/)
 
 ## My process
 
